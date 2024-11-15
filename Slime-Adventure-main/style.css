@@ -1,0 +1,104 @@
+
+
+/* --------- Estilos del Contenedor del Formulario --------- */
+
+/* Define el estilo del contenedor que rodea el formulario */
+.form-container {
+    /* Fondo blanco para contrastar con el fondo de la página */
+    background-color: #ffffff;
+    
+    /* Espaciado interno del contenedor para separar contenido de los bordes */
+    padding: 20px;
+    
+    /* Bordes redondeados para un aspecto más suave */
+    border-radius: 10px;
+    
+    /* Sombra para dar un efecto de elevación o flotación */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    /* Ancho fijo del formulario */
+    width: 300px;
+    
+    /* Centra el texto dentro del formulario */
+    text-align: center;
+}
+
+/* --------- Estilos de la Etiqueta --------- */
+
+/* Define el estilo de las etiquetas dentro del formulario */
+label {
+    /* Tamaño de letra de la etiqueta */
+    font-size: 1.1em;
+    
+    /* Espaciado inferior para separar la etiqueta del campo de entrada */
+    margin-bottom: 10px;
+    
+    /* Hace que cada etiqueta ocupe toda la anchura del contenedor */
+    display: block;
+    
+    /* Color del texto de la etiqueta */
+    color: #333; /* Color gris oscuro */
+}
+
+/* --------- Estilos del Campo de Entrada --------- */
+
+/* Define el estilo del campo de texto donde el usuario ingresa su nombre */
+input[type="text"] {
+    /* Ocupa toda la anchura disponible del contenedor */
+    width: 100%;
+    
+    /* Espaciado interno para hacer el campo más fácil de usar */
+    padding: 10px;
+    
+    /* Margen para separar el campo de otros elementos */
+    margin: 10px 0;
+    
+    /* Bordes con color claro */
+    border: 1px solid #ddd;
+    
+    /* Bordes redondeados para un aspecto más suave */
+    border-radius: 5px;
+    
+    /* Tamaño de letra del campo de entrada */
+    font-size: 1em;
+}
+
+/* --------- Estilos del Botón de Envío --------- */
+
+/* Define el estilo del botón para enviar el formulario */
+button[type="submit"] {
+    /* Ocupa toda la anchura del contenedor para facilitar el clic */
+    width: 100%;
+    
+    /* Espaciado interno para hacer el botón más grande y fácil de usar */
+    padding: 10px;
+    
+    /* Color de fondo del botón */
+    background-color: #4CAF50; /* Verde */
+    
+    /* Color del texto en el botón */
+    color: white;
+    
+    /* Tamaño de letra del botón */
+    font-size: 1em;
+    
+    /* Elimina el borde por defecto */
+    border: none;
+    
+    /* Bordes redondeados */
+    border-radius: 5px;
+    
+    /* Cambio del cursor a mano para indicar que es un elemento interactivo */
+    cursor: pointer;
+    
+    /* Efecto de transición en el color de fondo para que el cambio sea suave */
+    transition: background-color 0.3s;
+}
+
+/* --------- Efecto Hover del Botón --------- */
+
+/* Cambia el color de fondo cuando el usuario pasa el cursor sobre el botón */
+button[type="submit"]:hover {
+    /* Color más oscuro para indicar que el botón está activo */
+    background-color: #45a049; /* Verde más oscuro */
+}
